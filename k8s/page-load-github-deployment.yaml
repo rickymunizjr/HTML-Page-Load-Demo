@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: page-load-github-deployment
+spec:
+  replicas: 11
+  selector:
+    matchLabels:
+      app: page-load-github
+  template:
+    metadata:
+      labels:
+        app: page-load-github
+    spec:
+      containers:
+      - name: page-load-github
+        image: page-load-github-image:v1
+        ports:
+        - containerPort: 80
