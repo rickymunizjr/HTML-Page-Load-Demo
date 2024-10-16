@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: contenedor-page-load-service-lb
+spec:
+  type: LoadBalancer
+  selector:
+    app: contenedor-page-load
+  ports:
+  # Default port used by the image
+  - port: 80
