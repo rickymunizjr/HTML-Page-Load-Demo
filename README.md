@@ -255,6 +255,15 @@ Estos son los pasos para correr el ejercicio con Docker y Kubernetes
     <pre><p>http://localhost:'puerto-asignado-al-servicio'/cover/index.html</p><p>Ejemplo:</p><p href="http://localhost:31370/cover/index.html">http://localhost:31370/cover/index.html</p></pre>
    
 
+Referencias:
+- https://www.c-sharpcorner.com/uploadfile/5089e0/count-page-loading-time-using-javascript/
+- https://medium.com/@zul.m/deploying-a-static-html-site-with-docker-and-nginx-6f5bcdcbc650
+- https://www.udemy.com/share/1013BQ3@RYjqeQLanvxEWc05sfRkzHjde1Nw8G3WkdupryX9GxE7V-fTd1KpVlTr_oqMAgrP_Q==/
+- https://docs.docker.com/get-started/docker-overview/
+- https://kubernetes.io/docs/concepts/architecture/
+- https://kind.sigs.k8s.io/docs/design/initial
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
