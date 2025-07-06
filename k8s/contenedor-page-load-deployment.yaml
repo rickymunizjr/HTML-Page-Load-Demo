@@ -1,9 +1,11 @@
-kind: Deployment
 apiVersion: apps/v1
+kind: Deployment
 metadata:
   name: contenedor-page-load-deployment
+  labels:
+    app: contenedor-page-load
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: contenedor-page-load
@@ -14,6 +16,6 @@ spec:
     spec:
       containers:
       - name: contenedor-page-load
-        image: imagen-page-load:v1
+        image: imagen-page-load:v6
         ports:
         - containerPort: 80
